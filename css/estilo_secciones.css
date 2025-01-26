@@ -1,0 +1,156 @@
+@import url(/css/estilo_nav_footer.css);
+
+.seccion_inicio{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:start;
+    background-color: black;
+    
+}
+.contenedor_logo1{
+    position:absolute;
+    top: 30%;
+    width: 700px;
+}
+.logo1{
+    width: 100%;
+}
+
+.carousel-slide-s1 {
+    width: 100%;
+    height: calc(100vh - 50px); /* Resta la altura del header */
+    position: relative;
+}
+
+.carousel-inner-s1,
+.carousel-item-s1 {
+    width: 100%;
+    height: 100%;
+    filter:opacity(0.7);
+}
+.carousel-slide-s1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    filter: blur(2px);
+    
+}
+.seccion_productos{
+    width: 100%;
+    height: 100vh;
+}
+.producto_cafe{
+    background: linear-gradient(#FF9D2D, black);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+}
+.producto_cafe .contenedor_texto_cafe p{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+.producto_cafe .contenedor_texto_cafe{
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    
+}
+.carousel-slide-s2{
+    width: 400px;
+    height: min-content;
+}
+.btn_consulta{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    left: 100px;
+    top: 450px;
+    transition: background-color 0.5s ,color 0.5s
+}
+.btn_consulta:hover{
+    background-color: #F4C700;
+    color: black;
+}
+
+.link_wsp{
+    text-decoration: none;
+}
+.contenedor_btn_wsp{
+    width: 35px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.contenedor_btn_wsp img{
+    width: 100%;
+}
+.producto_snack{
+    background: linear-gradient(#92F52F, black);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.producto_snack .contenedor_texto_snack, .carousel-slide-s2_b{
+    margin-bottom:80px;
+}
+.producto_snack .contenedor_texto_snack p{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+.producto_snack .contenedor_texto_snack{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.carousel-slide-s2_b{
+    margin-bottom: 150px;
+}
+.carousel-slide-s2_b{
+    width: 300px;
+}
+
+.carousel-slide-s2_b img{
+    width: 100%;
+    height: 400px;
+}
+.btn_consulta2{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+   
+    right: 50px;
+    bottom: 50px;
+    transition: background-color 0.5s ,color 0.5s;
+    
+}
+.btn_consulta2:hover{
+    background-color: #F4C700;
+    color: black;
+}
