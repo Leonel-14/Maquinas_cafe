@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/estilo_nav_footer.css">
-    <link rel="stylesheet" href="/css/estilo_secciones.css">
+    <link rel="stylesheet" href="./css/estilo_nav_footer.css">
+    <link rel="stylesheet" href="./css/estilo_secciones.css">
     <title>Café Bantu</title>
 </head>
 
 <body>
     <main>
-        <section class="seccion_inicio">
+        <section class="seccion_inicio" id="inicio">
             <header class="encabezado">
                 <nav>
                     <div class="contenedor_links">
-                        <a href="#">Bantu</a>
-                        <a href="#">Productos</a>
+                        <a href="#inicio">Bantu</a>
+                        <a href="#productos">Productos</a>
                         <a href="#">Nosotros</a>
                     </div>
                     <div class="contenedor_icono_cafe">
@@ -27,7 +27,7 @@
                 </nav>
             </header>
             <div class="contenedor_logo1">
-            <img class="logo1" src="/img/logo1.png">
+                <img class="logo1" src="/img/logo1.png">
             </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide carousel-slide-s1" data-bs-ride="carousel">
                 <div class="carousel-inner carousel-inner-s1">
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </section>
-        <section class="seccion_productos">
+        <section class="seccion_productos" id="productos">
             <div class="producto_cafe">
                 <div id="carouselExample" class="carousel slide carousel-slide-s2">
                     <div class="carousel-inner carousel-inner-s2">
@@ -126,6 +126,75 @@
                         </button></a>
                 </div>
             </div>
+        </section>
+   <!--     <section class="producto_grano_formulario">
+            <div class="contenedor_grano_formulario">
+                <div class="contenedor_granos">
+                    <div class="contenedor_grano_texto">
+                    <div class="contenedor_img_granos">
+                        <img src="./img/grano.png">
+                    </div>
+                    <div class="contenedor_texto_grano">
+                        <p>Contamos con nuestro propio tostadero, donde seleccionamos cuidadosamente los mejores granos
+                            y
+                            controlamos cada etapa del proceso de tueste. Esto nos permite resaltar los aromas y sabores
+                            únicos que hacen de nuestro café una experiencia inigualable. </p>
+                    </div>
+                </div>
+                    <div class="contenedor_link_whatsapp">
+                        <a class="link_wsp" target="_blank" href="https://wa.me/+541126393433 "><button
+                                class="btn_consulta3">
+                                <div class="contenedor_btn_wsp"><img src="/redes/whatsapp.png"></div> Consultar
+                            </button></a>
+                    </div>
+                </div>
+                <div class="contenedor_formulario">
+                    <form>
+                        <p class="titulo_form">Dejanos tu consulta</p>
+                        <input placeholder="Nombre" type="text" required>
+                        <input placeholder="Apellido" type="text" required>
+                        <input placeholder="Numero de Telefono" type="number" required>
+                        <textarea rows="4" cols="40" placeholder="Consulta..." required></textarea>
+                        <button class="boton_formulario" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section> -->
+        <section class="seccion_nosotros">
+            <div class="contenedor_nosotros">
+            <div class="horario_equipo">
+                <div class="contenedor_horario">
+                    <p class="titulo">
+                        HORARIO
+                    </p>
+                    <p>Lunes - Viernes</p>
+                    <p>09HS - 17HS</p>
+                </div> 
+                <div class="contenedor_equipo">
+                    <div id="carouselExample3" class="carousel slide carousel-slide-s3">
+                        <div class="carousel-inner carousel-inner-s3">
+                            <div class="carousel-item active carousel-item-s3">
+                                <img src="./img/equipo.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="ubicacion">
+
+            </div>
+        </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
